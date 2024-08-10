@@ -1,0 +1,29 @@
+.atl-cp{
+    max-width: 700px;
+    width: calc(100% - 32px);
+    display: flex;
+    flex-direction: column;
+    background-color: #27292D;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #35373B;
+    gap: 16px;
+    margin: 0 16px;
+
+    .atl-cp__header{
+        font-family: Inter, sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.78px;
+        color: #C5C7CA;
+    }
+
+    .atl-cp__body{
+        width: 100%;
+        position: relative;
+    }
+
+    .atl-cp__btnWrapper{
+        align-self: flex-end;
+    }
+}

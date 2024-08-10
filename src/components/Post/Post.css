@@ -1,0 +1,65 @@
+.atl-post{
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    background-color: #27292D;
+    padding: 20px;
+    margin: 0 16px;
+    border-radius: 8px;
+    border: 2px solid #35373B;
+    gap: 16px;
+
+    .atl-post__header{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row;
+
+        .atl-post__header__contextbtn{
+            font-size: 24px;
+            color: #C5C7CA;
+        }
+
+        .atl-post__header__user{
+            display: flex;
+            gap: 16px;
+
+            div{
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+
+                .atl-post__header__user__name{
+                    font-family: Inter, sans-serif;
+                    font-size: 16px;
+                    line-height: 19.36px;
+                    font-weight: 500;
+                    color: #C5C7CA;
+                }
+    
+                .atl-post__header__user__login{
+                    font-family: Inter, sans-serif;
+                    color: #7F8084;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 16.94px;
+                }
+            }
+        }
+    }
+
+    .atl-post__body{
+        position: relative;
+    }
+
+    .atl-post__comments{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: #7F8084;
+        font-family: Inter, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16.94px;
+    }
+}

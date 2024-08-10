@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.atl-home{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #131319;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    gap: 48px;
+
+    .atl-home__posts{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+
+.atl-home:has(+ .atl-popup__wrapper){
+    filter: blur(1.5px);
+    pointer-events: none;
+}
